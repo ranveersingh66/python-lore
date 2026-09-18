@@ -25,4 +25,7 @@ print("Factorial of ", n, "is: ", fac)
 
 a = int(input("Enter a number to check: "))
 
+numstr = str(a)
+digits = len(numstr)
 
+sum = sum(int(digits)) ** digits for digit 
