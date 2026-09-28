@@ -44,3 +44,18 @@ while count <= 5:
 for i in range(3):
     for j in range(2):
         print(i, j)
+
+# Example (Pattern Printing)
+rows = 4
+for i in range(1, rows + 1):
+    for j in range(i):
+        print("*", end="")
+    print()
+
+r = 5 
+for i in range(1, r+1):
+    for j in range(i):
+        print("*", end="")
+    print()
+
+
