@@ -57,5 +57,41 @@ for i in range(1, r+1):
     for j in range(i):
         print("*", end="")
     print()
+# Loop Controls-
+
+# Break (stop the loop completely, right now)
+for num in range(1, 10):
+    if num == 5:
+        break
+    print(num)
+# Output- 1, 2, 3, 4
+
+# Continue (skip the rest of this round, go to the next one)
+for num in range(1, 6):
+    if num == 3:
+        continue
+    print(num)
+# Output- 1, 2, 4, 5
+
+# Pass (do nothing at all (a placeholder))
+for letter in "Python":
+    if letter == "h":
+        pass   # to be done later
+    print(letter)
+# Output- 
+#p
+#y
+#t
+#h
+#o
+#n
+
+#example
+
+list = [1, 2, 3, 4, 12, 65, 23, 98, 76]
+for i in range(list(0, 8)):
+    if i == 12:
+        break
+
 
 
