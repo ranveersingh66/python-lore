@@ -1,3 +1,5 @@
+#The most used box in Python: an ordered, changeable collection of anything
+
 #Lists methods
 
 marks = [12, 32, 22, 54, 32, 99, 15]
